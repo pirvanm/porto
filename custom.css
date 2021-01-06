@@ -195,3 +195,10 @@ rotunjit{
   font-size: 16px;
   margin: 4px 2px; 
 }
+
+/* Stilizare Sagetile din zona "cartonase */
+.bi.bi-arrow-right
+{
+    color:red;
+    margin-left: 10px;
+}
