@@ -316,3 +316,16 @@ rotunjit {
 .carousel-item h1 {
     color: orange;
 }
+
+
+/* S8 Note */
+
+.freelance {
+    padding-top: 200px;
+    background-image: url(ecran_fundal.png);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
