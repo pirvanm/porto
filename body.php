@@ -18,6 +18,7 @@
         //include('s4.php');
         // include('s5.php');
         include('s6.php');
+        include('s7.php');
         ?>
 
 
