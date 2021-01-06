@@ -208,3 +208,9 @@ rotunjit{
     margin-top:100px;
     margin-bottom:100px;
 }
+
+.view-all button {
+    padding:20px;
+    padding-left:70px;
+    padding-right: 70px;
+}
