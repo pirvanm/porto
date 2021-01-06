@@ -33,3 +33,23 @@
                     </div>
                 </div>
             </div>
+
+
+
+        </div>
+
+        <!-- Sectiunea Our Portofolio -->
+        <div class="row portofoliul-nostru">
+            <div class="col-md-12 text-center">
+                <h1>Our Portofolio </h1>
+
+                <p>Spune si tu o poveste </p>
+                <ul>
+                    <li>All </li>
+                    <li>Web development </li>
+                    <li>HTML </li>
+                    <li>Ui/UX </li>
+                    <li>Web Design </li>
+                </ul>
+            </div>
+        </div>

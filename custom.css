@@ -1,111 +1,122 @@
 /* Toata Pagina */
+
 body {
-    background-color:black; 
-    color:white;
-}
-/* Layout Schema Paginii */
-
-/* Setam Lungimea ecranului la 90 % */
- .container, 
-.container-lg, 
-.container-md, 
-.container-sm, 
-.container-xl {
-    max-width: 90%;
-    background-color:black;
-} 
-
-
-/* Sectiunea 1 Zona de Navigare */
-
-.collapse .navbar-collapse
-{
-    background-color:black;
-}
-/* Sectiunea 1 */
-.navbar {
-    /* padding-top:30px; */
-}
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    background-color: black;
     color: white;
 }
 
 
-.nav-link{
+/* Layout Schema Paginii */
 
-font-size:18px;
+
+/* Setam Lungimea ecranului la 90 % */
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 90%;
+    background-color: black;
 }
+
+
+/* Sectiunea 1 Zona de Navigare */
+
+.collapse .navbar-collapse {
+    background-color: black;
+}
+
+
+/* Sectiunea 1 */
+
+.navbar {
+    /* padding-top:30px; */
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
 #navbarText ul {
-    padding-left:200px;
+    padding-left: 200px;
 }
 
-.nav-item.active
-{
-    padding:20px;
-    background-color:orange;
-    padding-top:0px;
+.nav-item.active {
+    padding: 20px;
+    background-color: orange;
+    padding-top: 0px;
 }
+
 #navbarText ul li a.nav-link {
-    color:white;
+    color: white;
     padding-top: 40px;
     padding-right: 30px;
- 
 }
+
 
 /* Hire Me Button */
 
-.nav-link.btn.btn-danger
-{
+.nav-link.btn.btn-danger {
     padding-top: 15px!important;
     background-color: orange;
     margin-top: 25px;
     padding-left: 32px;
 }
 
+
 /* Sectiunea 2 */
 
-
 .wellcome {
-    color:white;
-   
+    color: white;
 }
+
+
 /*  Sectiunea din Stanga  */
+
 .hello {
-    padding-top:200px;
+    padding-top: 200px;
 }
 
 .hello h1 {
     /* Linia aceasta sterge un spatiu inutil , pentru a fi totul in linie :)  */
     padding: 0;
-    font-size:4em;
-    background-color:transparent;
-    border:none;
+    font-size: 4em;
+    background-color: transparent;
+    border: none;
     font-weight: bold;
 }
 
 .hello p {
-    font-size:2em;
+    font-size: 2em;
 }
 
 .hello button {
-  
     margin-top: 20px;
     padding: 20px;
     margin-right: 30px;
 }
 
+
 /* Butoane  */
-.btn-light
-{
-    color:white;
-    background-color:transparent;
+
+.btn-light {
+    color: white;
+    background-color: transparent;
     padding-left: 40px;
     padding-right: 40px;
 }
 
 
-
 /* Sectiunea din dreapta */
+
 .profil {
     background-image: url(profil.png);
     height: 1000px;
@@ -115,24 +126,28 @@ font-size:18px;
     position: relative;
 }
 
+
 /* Sectiunea 3 */
 
 div#3 {
     border: 5px solid red;
 }
 
+
 /* Zona din Stanga */
+
 .poza-colt {
     position: absolute;
     left: -10px;
     bottom: 30;
 }
+
+
 /* Zona din Dreapta  */
 
-.progress{
-    margin-bottom:20px;
+.progress {
+    margin-bottom: 20px;
 }
-
 
 .statistica h1 {
     width: 70%;
@@ -141,26 +156,32 @@ div#3 {
 
 .statistica p {
     width: 80%;
-    margin-top:50px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
+
+
 /* Fundal Pentru Bara de Progress */
+
 .bg-warning {
-      background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(red, yellow);
 }
 
 .butoane {
     margin-top: 50px;
 }
-.btn-about{
-    margin-left:20px;
+
+.btn-about {
+    margin-left: 20px;
 }
 
+
 /* #4 Servicii  */
-.services
-{
-    margin-top:200px;
+
+.services {
+    margin-top: 200px;
 }
+
 
 /*  Cartonase */
 
@@ -169,51 +190,56 @@ div#3 {
     width: 100%;
     margin-bottom: 30px;
 }
-.card-body
-{
-    color:white;
+
+.card-body {
+    color: white;
 }
 
 .card-body span {
-    color:white;
+    color: white;
 }
-.cartonase svg
-{
-    color:white;
+
+.cartonase svg {
+    color: white;
     font-size: 2em;
 }
 
-rotunjit{
-    border-radius :40px;
+rotunjit {
+    border-radius: 40px;
     background-color: black;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
 }
 
+
 /* Stilizare Sagetile din zona "cartonase */
-.bi.bi-arrow-right
-{
-    color:red;
+
+.bi.bi-arrow-right {
+    color: red;
     margin-left: 10px;
 }
 
+
 /* Sectiunea view-all */
-.view-all{
-    margin-top:100px;
-    margin-bottom:100px;
+
+.view-all {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .view-all button {
-    padding:20px;
-    padding-left:70px;
+    padding: 20px;
+    padding-left: 70px;
     padding-right: 70px;
 }
+
+
 /* Sectiunea 5 Portofolio */
 
 .experienta.col-md-3.card {
@@ -221,11 +247,26 @@ rotunjit{
     margin-right: 200px;
 }
 
-.card.text-center
-{
-    background-color:black;
+.card.text-center {
+    background-color: black;
     border: 5px solid grey;
 }
-.card-body h1 ,.card-body h3{
-    color:white;
+
+.card-body h1,
+.card-body h3 {
+    color: white;
+}
+
+
+/* Portofliul nostru */
+
+.portofoliul-nostru {
+    margin-top: 100px;
+}
+
+
+/* Meniu  */
+
+.portofoliul-nostru ul li {
+    display: inline-block;
 }
