@@ -19,3 +19,7 @@
         <img src="project_6.png">
     </div>
 </div>
+
+<div class="view-all offset-md-5 col-md-2">
+    <button type="button" class="btn btn-danger btn-lg"> View All</button>
+</div>
