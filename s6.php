@@ -23,3 +23,8 @@
 <div class="view-all offset-md-5 col-md-2">
     <button type="button" class="btn btn-danger btn-lg"> View All</button>
 </div>
+
+<div class="view-all offset-md-5 col-md-2">
+    <h1> Testimonials </h1>
+    <p>Ceva intelinget, sa dea bine! </p>
+</div>
