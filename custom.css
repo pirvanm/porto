@@ -179,13 +179,13 @@ div#3 {
 }
 .cartonase svg
 {
-    color:red;
+    color:white;
     font-size: 2em;
 }
 
 rotunjit{
     border-radius :40px;
-    background-color: #4CAF50;
+    background-color: black;
   border: none;
   color: white;
   padding: 20px;
