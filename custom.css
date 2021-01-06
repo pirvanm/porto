@@ -242,6 +242,10 @@ rotunjit {
 
 /* Sectiunea 5 Portofolio */
 
+.experienta {
+    margin-top: 100px;
+}
+
 .experienta.col-md-3.card {
     width: 200px;
     margin-right: 200px;
