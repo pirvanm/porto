@@ -302,3 +302,17 @@ rotunjit {
 .carousel {
     margin-top: 50px;
 }
+
+
+/* Stilizare Slideuri  */
+
+.carousel-item img,
+.carousel-item h1,
+.carousel-item h3,
+.carousel-item p {
+    margin-bottom: 30px;
+}
+
+.carousel-item h1 {
+    color: orange;
+}
