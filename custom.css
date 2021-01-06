@@ -214,3 +214,18 @@ rotunjit{
     padding-left:70px;
     padding-right: 70px;
 }
+/* Sectiunea 5 Portofolio */
+
+.experienta.col-md-3.card {
+    width: 200px;
+    margin-right: 200px;
+}
+
+.card.text-center
+{
+    background-color:black;
+    border: 5px solid grey;
+}
+.card-body h1 ,.card-body h3{
+    color:white;
+}
