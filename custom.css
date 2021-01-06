@@ -270,3 +270,8 @@ rotunjit {
 .portofoliul-nostru ul li {
     display: inline-block;
 }
+
+.portofoliul-nostru ul li:hover {
+    /* background-color: orange; */
+    border-bottom: 3px solid red;
+}
