@@ -374,6 +374,35 @@ burdura pentru evidentiere */
 }
 
 
+/* Stilizare Social Zone */
+
+ul.social {
+    position: absolute;
+    background-color: orange;
+    width: 335px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%!important;
+}
+
+.social li {
+    list-style: none;
+    display: inline-block;
+}
+
+.spatiere {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+
 /* Stilizare Contact Dreapta Formulare */
 
 
