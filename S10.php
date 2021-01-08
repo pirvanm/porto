@@ -59,7 +59,7 @@
         <h1>Drop a line</h1>
 
         <!-- https://getbootstrap.com/docs/4.5/components/forms/#form-grid -->
-        <form>
+        <form class="formularul">
             <div class="row">
                 <div class="col">
                     <input type="text" class="form-control" placeholder="Name">
@@ -84,7 +84,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                    <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
                 </div>
             </div>
 

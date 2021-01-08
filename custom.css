@@ -379,6 +379,10 @@ burdura pentru evidentiere */
 
 /* Stilizare Generala Formulare */
 
+.formularul {
+    margin-top: 50px;
+}
+
 .form-control {
     display: block;
     width: 100%;
@@ -392,4 +396,11 @@ burdura pentru evidentiere */
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     margin-bottom: 20px;
+}
+
+
+/* Stilizare Mesaj pentru Mail */
+
+textarea.form-control {
+    height: 200px;
 }
