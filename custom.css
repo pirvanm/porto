@@ -336,3 +336,39 @@ rotunjit {
 .blog {
     margin-top: 100px;
 }
+
+
+/* S10 Contact */
+
+.contact {
+    margin-top: 100px;
+}
+
+
+/* Stilizare butoane, incercuire
+diminsiune
+burdura pentru evidentiere */
+
+.contact .bi.bi-telephone,
+.contact .bi.bi-envelope-fill,
+.contact .bi.bi-house-door-fill {
+    position: absolute;
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background: black;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.contact small {
+    color: grey;
+}
+
+
+/* Clasa utilitara spatiere in jos */
+
+.spatiu-jos {
+    margin-bottom: 20px;
+}
