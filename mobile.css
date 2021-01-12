@@ -44,4 +44,13 @@
     .card {
         width: 100%;
     }
+    /* S6  */
+    .capturi-proiecte div.col-md-4 {
+        text-align: center;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .capturi-proiecte img {
+        margin-left: 50px;
+    }
 }
