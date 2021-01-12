@@ -1,6 +1,6 @@
 <div class="row contact">
     <!-- Sectiunea din Stanga -->
-    <div class="col-md-4">
+    <div class="col-md-4 text-center">
 
         <h1>Contact US</h1>
         <p>Hai sa facem ceva diferit in fiecare zi</p>
@@ -47,11 +47,12 @@
                     27 Division St,New York<br>
                     NY 10002,USA
                 </span>
+                <h6 class="spatiere">Ma poti gasi pe urmatoarele retele </h6>
             </div>
 
             </br>
             </br>
-            <h6 class="spatiere">Ma poti gasi pe urmatoarele retele </h6>
+
             <br />
             <br />
             <div class="col-md-12">
@@ -87,21 +88,21 @@
 
         <!-- https://getbootstrap.com/docs/4.5/components/forms/#form-grid -->
         <form class="formularul">
-            <div class="row">
-                <div class="col">
+            <div class="row f">
+                <div class="col-md-6">
                     <input type="text" class="form-control" placeholder="Name">
                 </div>
-                <div class="col">
+                <div class="col-md-6">
                     <input type="text" class="form-control" placeholder="Email">
                 </div>
             </div>
 
 
-            <div class="row">
-                <div class="col">
+            <div class="row f">
+                <div class="col-md-6">
                     <input type="text" class="form-control" placeholder="Phone">
                 </div>
-                <div class="col">
+                <div class="col-md-6">
                     <select id="inputState" class="form-control">
                         <option selected>Buget...</option>
                         <option>...</option>
@@ -109,8 +110,8 @@
                     </select>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div class="row f">
+                <div class="col-md-12">
                     <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
                 </div>
             </div>

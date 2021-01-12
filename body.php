@@ -20,8 +20,8 @@
         //include('s6.php');
         //include('s7.php');
         //include('s8.php');
-        include('s9.php');
-        // include('s10.php');
+        //include('s9.php');
+        include('s10.php');
         ?>
 
 
