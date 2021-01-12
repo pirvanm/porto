@@ -1,0 +1,22 @@
+@media only screen and (min-device-width: 281px) and (max-device-width:524px) {
+    .hello {
+        padding-top: 100px;
+        flex: 0 0 100.666667%;
+        max-width: 99.666667%;
+        padding-bottom: 100px;
+    }
+    .hello h1 {
+        padding: 0;
+        font-size: 2em;
+        background-color: transparent;
+        border: none;
+        font-weight: bold;
+    }
+    .hello p {
+        font-size: 2em;
+    }
+    .profil {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

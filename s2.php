@@ -1,5 +1,5 @@
-<div id="2" class="row wellcome">
-    <div class="col-md-5 hello">
+<div id="2" class="row wellcome text-center">
+    <div class="col-md-5 col-xs-12 hello">
 
         <h1 type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Hello, I'm ">
             Mr. Web Developer
