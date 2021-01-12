@@ -148,8 +148,8 @@
                 <!-- Inchidere Coloana -->
             </div>
 
-            <!-- View All  -->
-            <div class="view-all offset-md-5 col-md-2">
+            <!-- View All Button  -->
+            <div class="view-all text-center col-md-12">
                 <button type="button" class="btn btn-danger btn-lg"> View All</button>
             </div>
         </div>
