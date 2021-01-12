@@ -25,4 +25,15 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .grid-left-abilitati {
+        padding-top: 100px;
+    }
+    /* S4  */
+    .mesaj-service {
+        padding-bottom: 100px;
+    }
+    .card-visit div.col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }

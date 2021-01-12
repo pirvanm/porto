@@ -1,12 +1,12 @@
 <div id="4" class="row services">
     <!-- https://getbootstrap.com/docs/4.5/utilities/text/#text-alignment  -->
-    <div class="offset-md-2 col-md-8 text-center">
+    <div class="offset-md-2 col-md-8 text-center mesaj-service">
         <h1> Our Services</h1>
         <p>Ceva citate motivatlionale ca asa e frumos :) ! There is little in life that a wise mind can’t conquer. And it’s the sage-like guidance that inspires us to make our life that much better.</p>
     </div>
 
     <div class="col-md-12 cartonase">
-        <div class="row text-center">
+        <div class="row text-center card-visit">
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
