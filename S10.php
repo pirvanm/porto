@@ -118,6 +118,8 @@
             <button type="button" class="btn btn-danger btn-lg">Submit</button>
         </form>
 
+        <footer> Copyrigth @2021. All rigths </footer>
+
     </div>
 
     <!-- Sectiunea din Dreapta -->

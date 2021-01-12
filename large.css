@@ -1,5 +1,6 @@
 /* Toata Pagina */
 
+@import "mobile.css";
 body {
     background-color: black;
     color: white;
