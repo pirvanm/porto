@@ -19,4 +19,10 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    /* S3 Mobile  */
+    .grid-left-abilitati,
+    .statistica {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
