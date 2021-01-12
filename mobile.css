@@ -53,4 +53,27 @@
     .capturi-proiecte img {
         margin-left: 50px;
     }
+    /* S7 Mobile */
+    .carousel {
+        margin-top: 50px;
+        /* margin: auto; */
+        /* width: 50%; */
+        margin-top: 42%;
+    }
+    /* S8  */
+    .freelance {
+        margin-top: 200px;
+    }
+    /* S9 */
+    .postare h1 {
+        font-size: 5em;
+    }
+    .postare p {
+        font-size: 3em;
+    }
+    /* Postari Blog */
+    .blog div.col-md-4 {
+        flex: 0 0 100.0%;
+        max-width: 100%;
+    }
 }

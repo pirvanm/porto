@@ -1,5 +1,5 @@
 <div id="9" class="row blog text-center">
-    <div class="col-md-12">
+    <div class="col-md-12 postare">
         <h1>Latest Blog</h1>
 
         <p>Ceva frumos pentru blogulul nostru</p>
@@ -7,7 +7,7 @@
 
 
     <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="">
             <img class="card-img-top" src="postare_1.png" alt="Card image cap">
             <div class="card-body">
                 <!-- <h5 class="card-title">Card title</h5>
@@ -18,7 +18,7 @@
     </div>
 
     <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="">
             <img class="card-img-top" src="postare_2.png" alt="Card image cap">
             <div class="card-body">
                 <!-- <h5 class="card-title">Card title</h5>
@@ -29,7 +29,7 @@
     </div>
 
     <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="">
             <img class="card-img-top" src="postare_3.png" alt="Card image cap">
             <div class="card-body">
                 <!-- <h5 class="card-title">Card title</h5>

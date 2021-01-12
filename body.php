@@ -17,10 +17,10 @@
         //  include('s3.php');
         //include('s4.php');
         //include('s5.php');
-        include('s6.php');
-        //  include('s7.php');
-        // include('s8.php');
-        // include('s9.php');
+        //include('s6.php');
+        //include('s7.php');
+        //include('s8.php');
+        include('s9.php');
         // include('s10.php');
         ?>
 
