@@ -367,4 +367,10 @@ textarea.form-control {
   height: 200px;
 }
 
+.btn-danger {
+  color: #fff;
+  background-color: #FF4900;
+  border-color: #dc3545;
+}
+
 /*# sourceMappingURL=large.css.map */

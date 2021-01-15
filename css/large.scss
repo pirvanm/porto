@@ -446,3 +446,9 @@ ul.social {
 textarea.form-control {
     height: 200px;
 }
+
+.btn-danger {
+    color: $color-white;
+    background-color: $color-orange;
+    border-color: #dc3545;
+}
