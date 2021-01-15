@@ -1,7 +1,7 @@
 /* Toata Pagina */
 /* //@import "mobile.css"; */
 body {
-  background-color: #707070;
+  background-color: black;
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
@@ -14,7 +14,7 @@ body {
 .container-sm,
 .container-xl {
   max-width: 90%;
-  background-color: #707070;
+  background-color: #000;
 }
 
 /* Sectiunea 1 Zona de Navigare */

@@ -1,6 +1,7 @@
 // Variabile Culoare
 $color-white: #fff;
 $color-orange: #FF4900;
+$black-background: #000;
 $black-background-color: #707070;
 // Variabile Fonturi
 $font-text:'Poppins',
@@ -13,7 +14,7 @@ sans-serif;
 /* //@import "mobile.css"; */
 
 body {
-    background-color: $black-background-color;
+    background-color: black;
     color: $color-white;
     font-family: $font-text;
 }
@@ -30,7 +31,7 @@ body {
 .container-sm,
 .container-xl {
     max-width: 90%;
-    background-color: $black-background-color;
+    background-color: $black-background;
 }
 
 
