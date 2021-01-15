@@ -4,7 +4,7 @@
         <nav class="navbar navbar-expand-lg navbar-light ">
             <!-- Definim Logoul  -->
             <a class="navbar-brand" href="#">
-                <img src="logo.png">
+                <img src="imgs/logo.png">
             </a>
             <!-- Definim Zona de Navigare -->
             <div class="collapse navbar-collapse" id="navbarText">

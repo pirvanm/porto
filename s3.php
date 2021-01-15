@@ -1,7 +1,7 @@
         <!-- Sectiunea 3 -->
         <div id="3" class="abilitati row  text-center">
             <div class="col-md-6 grid-left-abilitati">
-                <img src="computer.png" alt="Girl in a jacket" width="500" height="600">
+                <img src="imgs/on_pc.png" alt="Girl in a jacket" width="500" height="600">
                 <!-- https://stackoverflow.com/questions/54079055/css-position-image-on-bottom-right-corner/54079171-->
                 <img class="poza-colt" src="caii.jpg" alt="Cei 6 fermecatorii" width="50" height="50">
             </div>
