@@ -1,0 +1,442 @@
+// Variabile
+$color-white: #fff;
+$color-orange: #FF4900;
+//$color-black:
+
+/* Toata Pagina */
+
+
+/* //@import "mobile.css"; */
+
+body {
+    background-color: black;
+    color: $color-white;
+}
+
+
+/* Layout Schema Paginii */
+
+
+/* Setam Lungimea ecranului la 90 % */
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 90%;
+    background-color: black;
+}
+
+
+/* Sectiunea 1 Zona de Navigare */
+
+.collapse .navbar-collapse {
+    background-color: black;
+}
+
+
+/* Sectiunea 1 */
+
+.navbar {
+    /* padding-top:30px; */
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: $color-white;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+#navbarText ul {
+    padding-left: 200px;
+}
+
+.nav-item.active {
+    padding: 20px;
+    background-color: $color-orange;
+    padding-top: 0px;
+}
+
+#navbarText ul li a.nav-link {
+    color: $color-white;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+
+
+/* Hire Me Button */
+
+.nav-link.btn.btn-danger {
+    padding-top: 15px!important;
+    background-color: $color-orange;
+    margin-top: 25px;
+    padding-left: 32px;
+}
+
+
+/* Sectiunea 2 */
+
+.wellcome {
+    color: $color-white;
+}
+
+
+/*  Sectiunea din Stanga  */
+
+.hello {
+    padding-top: 200px;
+}
+
+.hello h1 {
+    /* Linia aceasta sterge un spatiu inutil , pentru a fi totul in linie :)  */
+    padding: 0;
+    font-size: 4em;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.hello p {
+    font-size: 2em;
+}
+
+.hello button {
+    margin-top: 20px;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+
+/* Butoane  */
+
+.btn-light {
+    color: $color-white;
+    background-color: transparent;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/* Sectiunea din dreapta */
+
+.profil {
+    background-image: url(profil.png);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Sectiunea 3 */
+
+// div #3 {
+//     border: 5px solid red;
+// }
+
+/* Zona din Stanga */
+
+.poza-colt {
+    position: absolute;
+    left: -10px;
+    bottom: 30;
+}
+
+
+/* Zona din Dreapta  */
+
+.progress {
+    margin-bottom: 20px;
+}
+
+.statistica h1 {
+    width: 70%;
+    font-size: 2.5rem;
+}
+
+.statistica p {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* Fundal Pentru Bara de Progress */
+
+.bg-warning {
+    background-image: linear-gradient(red, yellow);
+}
+
+.butoane {
+    margin-top: 50px;
+}
+
+.btn-about {
+    margin-left: 20px;
+}
+
+
+/* #4 Servicii  */
+
+.services {
+    margin-top: 200px;
+}
+
+
+/*  Cartonase */
+
+.card {
+    background: grey;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.card-body {
+    color: $color-white;
+}
+
+.card-body span {
+    color: $color-white;
+}
+
+.cartonase svg {
+    color: $color-white;
+    font-size: 2em;
+}
+
+rotunjit {
+    border-radius: 40px;
+    background-color: black;
+    border: none;
+    color: $color-white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+
+/* Stilizare Sagetile din zona "cartonase */
+
+.bi.bi-arrow-right {
+    color: red;
+    margin-left: 10px;
+}
+
+
+/* Sectiunea view-all */
+
+.view-all {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.view-all button {
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+/* Sectiunea 5 Portofolio */
+
+.experienta {
+    margin-top: 100px;
+}
+
+.experienta.col-md-3.card {
+    width: 200px;
+    margin-right: 200px;
+}
+
+.card.text-center {
+    background-color: black;
+    border: 5px solid grey;
+}
+
+.card-body h1,
+.card-body h3 {
+    color: $color-white;
+}
+
+
+/* Portofliul nostru */
+
+.portofoliul-nostru {
+    margin-top: 100px;
+}
+
+
+/* Meniu  */
+
+.portofoliul-nostru ul li {
+    display: inline-block;
+}
+
+.portofoliul-nostru ul li:hover {
+    /* background-color: orange; */
+    border-bottom: 3px solid red;
+}
+
+
+/* Sectiunea Capturi Proiecte */
+
+.capturi-proiecte {
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.capturi-proiecte div.col-md-4 {
+    margin-bottom: 50px;
+}
+
+.capturi-proiecte img {
+    width: 100%;
+}
+
+
+/*  S7 Carousel  */
+
+.carousel {
+    margin-top: 50px;
+}
+
+
+/* Stilizare Slideuri  */
+
+.carousel-item img,
+.carousel-item h1,
+.carousel-item h3,
+.carousel-item p {
+    margin-bottom: 30px;
+}
+
+.carousel-item h1 {
+    color: $color-orange
+}
+
+
+/* S8 Note */
+
+.freelance {
+    padding-top: 200px;
+    background-image: url(ecran_fundal.png);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* S9 Blog */
+
+.blog {
+    margin-top: 100px;
+}
+
+
+/* S10 Contact */
+
+.contact {
+    margin-top: 100px;
+}
+
+
+/* Stilizare butoane, incercuire
+diminsiune
+burdura pentru evidentiere */
+
+.contact .bi.bi-telephone,
+.contact .bi.bi-envelope-fill,
+.contact .bi.bi-house-door-fill {
+    position: absolute;
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background: black;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.contact small {
+    color: grey;
+}
+
+
+/* Clasa utilitara spatiere in jos */
+
+.spatiu-jos {
+    margin-bottom: 20px;
+}
+
+
+/* Stilizare Social Zone */
+
+ul.social {
+    position: absolute;
+    background-color: $color-orange;
+    width: 335px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%!important;
+}
+
+.social li {
+    list-style: none;
+    display: inline-block;
+}
+
+.spatiere {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+
+/* Stilizare Contact Dreapta Formulare */
+
+
+/* Stilizare Generala Formulare */
+
+.formularul {
+    margin-top: 50px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: black;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-bottom: 20px;
+}
+
+
+/* Stilizare Mesaj pentru Mail */
+
+textarea.form-control {
+    height: 200px;
+}
