@@ -1,11 +1,24 @@
+// Variabile Culoare
+$color-white: #fff;
+$noua-variabila : 50px;
+$color-orange: #FF4900;
+$black-background: #000;
+$black-background-color: #707070;
+// Variabile Fonturi
+$font-text:'Poppins',
+sans-serif;
+//$color-black:
+
 /* Toata Pagina */
 
 
 /* //@import "mobile.css"; */
 
 body {
+    padding: $noua-variabila;
     background-color: black;
-    color: white;
+    color: $color-white;
+    font-family: $font-text;
 }
 
 
@@ -20,14 +33,14 @@ body {
 .container-sm,
 .container-xl {
     max-width: 90%;
-    background-color: black;
+    background-color: $black-background;
 }
 
 
 /* Sectiunea 1 Zona de Navigare */
 
 .collapse .navbar-collapse {
-    background-color: black;
+    background-color: $black-background-color;
 }
 
 
@@ -41,7 +54,7 @@ body {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: white;
+    color: $color-white;
 }
 
 .nav-link {
@@ -54,12 +67,12 @@ body {
 
 .nav-item.active {
     padding: 20px;
-    background-color: orange;
+    background-color: $color-orange;
     padding-top: 0px;
 }
 
 #navbarText ul li a.nav-link {
-    color: white;
+    color: $color-white;
     padding-top: 40px;
     padding-right: 30px;
 }
@@ -69,7 +82,7 @@ body {
 
 .nav-link.btn.btn-danger {
     padding-top: 15px!important;
-    background-color: orange;
+    background-color: $color-orange;
     margin-top: 25px;
     padding-left: 32px;
 }
@@ -78,7 +91,7 @@ body {
 /* Sectiunea 2 */
 
 .wellcome {
-    color: white;
+    color: $color-white;
 }
 
 
@@ -111,7 +124,7 @@ body {
 /* Butoane  */
 
 .btn-light {
-    color: white;
+    color: $color-white;
     background-color: transparent;
     padding-left: 40px;
     padding-right: 40px;
@@ -132,10 +145,9 @@ body {
 
 /* Sectiunea 3 */
 
-div#3 {
-    border: 5px solid red;
-}
-
+// div #3 {
+//     border: 5px solid red;
+// }
 
 /* Zona din Stanga */
 
@@ -195,23 +207,23 @@ div#3 {
 }
 
 .card-body {
-    color: white;
+    color: $color-white;
 }
 
 .card-body span {
-    color: white;
+    color: $color-white;
 }
 
 .cartonase svg {
-    color: white;
+    color: $color-white;
     font-size: 2em;
 }
 
 rotunjit {
     border-radius: 40px;
-    background-color: black;
+    background-color: $black-background-color;
     border: none;
-    color: white;
+    color: $color-white;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -255,13 +267,13 @@ rotunjit {
 }
 
 .card.text-center {
-    background-color: black;
+    background-color: $black-background-color;
     border: 5px solid grey;
 }
 
 .card-body h1,
 .card-body h3 {
-    color: white;
+    color: $color-white;
 }
 
 
@@ -317,7 +329,7 @@ rotunjit {
 }
 
 .carousel-item h1 {
-    color: orange;
+    color: $color-orange
 }
 
 
@@ -360,7 +372,7 @@ burdura pentru evidentiere */
     width: 25px;
     height: 25px;
     border-radius: 25px;
-    background: black;
+    background: $black-background-color;
     padding: 5px;
     border: 1px solid grey;
 }
@@ -381,7 +393,7 @@ burdura pentru evidentiere */
 
 ul.social {
     position: absolute;
-    background-color: orange;
+    background-color: $color-orange;
     width: 335px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -422,7 +434,7 @@ ul.social {
     font-size: 12px;
     line-height: 1.5;
     color: #495057;
-    background-color: black;
+    background-color: $black-background-color;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
@@ -435,4 +447,10 @@ ul.social {
 
 textarea.form-control {
     height: 200px;
+}
+
+.btn-danger {
+    color: $color-white;
+    background-color: $color-orange;
+    border-color: #dc3545;
 }

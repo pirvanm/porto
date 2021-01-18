@@ -1,0 +1,135 @@
+    @media only screen and (min-device-width: 281px) and (max-device-width:524px) {
+        .hello {
+            padding-top: 100px;
+            flex: 0 0 100.666667%;
+            max-width: 99.666667%;
+            padding-bottom: 100px;
+        }
+        .hello h1 {
+            padding: 0;
+            font-size: 2em;
+            background-color: transparent;
+            border: none;
+            font-weight: bold;
+        }
+        .hello p {
+            font-size: 2em;
+        }
+        .profil {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        /* S3 Mobile  */
+        .grid-left-abilitati,
+        .statistica {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .grid-left-abilitati {
+            padding-top: 100px;
+        }
+        /* S4  */
+        .mesaj-service {
+            padding-bottom: 100px;
+        }
+        .card-visit div.col-md-4 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        /* S5 Mobile */
+        .experienta div.col-md-3 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .card {
+            width: 100%;
+        }
+        /* S6  */
+        .capturi-proiecte div.col-md-4 {
+            text-align: center;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .capturi-proiecte img {
+            margin-left: 50px;
+        }
+        /* S7 Mobile */
+        .carousel {
+            margin-top: 50px;
+            /* margin: auto; */
+            /* width: 50%; */
+            margin-top: 42%;
+        }
+        /* S8  */
+        .freelance {
+            margin-top: 200px;
+        }
+        /* S9 */
+        .postare h1 {
+            font-size: 5em;
+        }
+        .postare p {
+            font-size: 3em;
+        }
+        /* Postari Blog */
+        .blog div.col-md-4 {
+            flex: 0 0 100.0%;
+            max-width: 100%;
+        }
+        /* S10 Mobile */
+        .contact div.col-md-4 {
+            flex: 0 0 100.0%;
+            max-width: 100%;
+        }
+        .contact .bi.bi-telephone,
+        .contact .bi.bi-envelope-fill,
+        .contact .bi.bi-house-door-fill {
+            position: absolute;
+            margin-top: 8px;
+            width: 25px;
+            height: 25px;
+            border-radius: 25px;
+            background: black;
+            padding: 5px;
+            border: 1px solid grey;
+            margin-left: 19em;
+            text-align: center;
+        }
+        .info {
+            padding-bottom: 75px;
+        }
+        ul.social {
+            position: absolute;
+            background-color: orange;
+            width: 80%;
+        }
+        /* Sectiunea Formular */
+        .contact div.col-md-8 {
+            flex: 0 0 100.0%;
+            max-width: 100%;
+        }
+        .col input,
+        form.formularul.row.col {
+            flex: 0 0 100.0%;
+            max-width: 100%;
+        }
+        input.form-control {
+            flex: 0 0 100.0%;
+            max-width: 100%;
+        }
+        .formularul {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        input.form-control {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        div.f div.col-md-6 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        footer {
+            text-align: center;
+        }
+    }
