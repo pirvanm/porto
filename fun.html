@@ -1,0 +1,388 @@
+<!--
+ Copy not working, disabled as of now for this demo :)
+-->
+
+<div class="wrapper" id="wrapper">
+    <header class="clear">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#" id="getCode">Code</a></li>
+          <li class="github"><a href="https://github.com/i-break-codes/keycodes" target="_blank">GitHub</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Press Any Key</h1>
+    <div id="showKey" class="show-key"></div>
+  </div>
+  
+  <div id="codeModal" class="hide">
+    <nav class="code-nav">
+      <ul class="clear">
+        <li class="active-code-nav"><a href="#" data-trigger="javascript">JavaScript</a></li>
+        <li><a href="#" data-trigger="jquery">jQuery</a></li>
+      </ul>
+    </nav>
+  
+    <div data-target="javascript">
+      <pre id="javascriptCode">
+    document.addEventListener('keydown', function(e) {
+      if(e.keyCode === <span>&lt;KEY_CODE&gt;</span>) {
+        e.preventDefault();
+        console.log('You just pressed a key');  
+      }
+    });
+  </pre>
+    </div>
+    <div data-target="jquery" class="hide">
+      <pre id="jqueryCode">
+    jQuery(document).on('keydown', function(e) {
+      if(e.keyCode === <span>&lt;KEY_CODE&gt;</span>) {
+        e.preventDefault();
+        console.log('You just pressed a key');  
+      }
+    });
+  </pre>
+    </div>
+    <div class="modal-controls">
+      <p class="hide">Copied</p>
+      <ul>
+        <li><a href="#" data-clipboard-target="javascriptCode" id="copyButton"></a></li>
+        <li><a href="#" id="closeModal">Close</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <style>
+      @import url(https://fonts.googleapis.com/css?family=Lato:400,100,300);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+$base-color: rgba(255,255,255, .5);
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  background-size: auto 100%;
+  font: normal 300 13px/16px Lato;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*,
+*:before, 
+*:after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 90px;
+  text-align: center;
+  width: 100%;
+  color: $base-color;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+header {
+  padding: 40px;
+  
+  a {
+    border: 1px solid $base-color;
+    color: $base-color;
+    padding: 8px 20px;
+    border-radius: 3px;
+    position: relative;
+    
+    &:hover,
+    &.active-main-nav {
+      background-color: transparentize($base-color, 0.4);
+      color: opacify($base-color, 1);
+    }
+  }
+  
+  .github a {
+    padding-left: 40px;
+    
+    &:before {
+      content: "";
+      display: inline-block;
+      background-image: url('http://imgh.us/github_2.svg');
+      height: 16px;
+      width: 16px;
+      background-size: 100% auto;
+      margin-right: 7px;
+      position: absolute;
+      left: 18px;
+      top: 8px;
+      opacity: .5;
+    }
+    
+    &:hover {
+      &:before {
+        opacity: 1;
+      }
+    }
+  }
+  
+  ul {
+    float: right;  
+  }
+  
+  li {
+    float: left;
+    margin-left: 30px;
+  }
+}
+
+
+.show-key {
+  font-size: 300px;
+  position: absolute;
+  text-align: center;
+  font-weight: 300;
+  width: 100%;
+  color: $base-color;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.fade-out-title {
+  transition: .5s color linear;
+  color: transparentize($base-color, 0.4);
+}
+
+#codeModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  min-width: 600px;
+  min-height: 200px;
+  border-radius: 3px;
+  max-width: 650px;
+  border: 1px solid $base-color;
+  
+  pre {
+    font-size: 16px;
+    color: opacify($base-color, 1);
+    margin-top: 30px;
+    padding: 0 35px;
+    overflow: hidden;
+  }
+}
+
+.code-nav {
+  margin: 20px 40px;
+  
+  li {
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid $base-color;
+  }
+  
+  a {
+    color: $base-color;
+    padding: 10px;
+    padding-bottom: 20px;
+    display: block;
+  }
+  
+  .active-code-nav {
+    border-bottom: 1px solid opacify($base-color, 1);
+    
+    a {
+      color: opacify($base-color, 1);
+    }
+  }
+}
+
+.modal-controls {
+  border-top: 1px solid $base-color;
+  margin: 20px 40px;
+  
+  ul {
+    float: right;  
+  }
+  
+  li {
+    float: left;
+    padding: 15px 20px;
+  }
+  
+  a {
+    color: $base-color;
+    display: block;
+    font-size: 14px;
+  }
+  
+  p {
+    float: left;
+    line-height: 46px;
+    color: $base-color;
+  }
+}
+
+.fade-out {
+  transition: .5s opacity linear;
+  opacity: 0 !important;
+}
+
+.fade-in {
+  transition: .5s opacity linear;
+  opacity: 1 !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+  </style>
+
+  <script>
+      var KeyCode = function() {
+  var wrapper = document.getElementById('wrapper');
+  var codeModal = document.getElementById('codeModal');
+  var getCodeBtn = document.getElementById('getCode');
+  
+  function init() {
+    bindings();
+  }
+  
+  function bindings() {
+    getKey();
+    showModal();
+    hideModal();
+    switchLanguage();
+    copySyntax();
+  }
+  
+  function getKey() {
+    document.addEventListener('keydown', function(e) {
+      e.preventDefault();
+      showKey(e.keyCode);
+    });
+  }
+  
+  function showKey(keyCode) {
+    document.getElementsByTagName('h1')[0].classList.add('fade-out-title');
+    
+    //Show Key
+    document.getElementById('showKey').innerHTML = keyCode;
+    
+    //Change keycode in syntax
+    var getHolders = codeModal.getElementsByTagName('span');
+    for(i = 0; i < getHolders.length; i++) {
+      getHolders[i].innerHTML = keyCode;
+    }
+  }
+  
+  function showModal() {
+    var elm = document.getElementById('getCode');
+    elm.addEventListener('click', function(e) {
+      e.preventDefault();
+      elm.className = 'active-main-nav';
+      
+      toggleClass(wrapper, 'hide', 'show');
+      codeModal.className = 'show';
+    });
+  }
+  
+  function hideModal() {
+    var elm = document.getElementById('closeModal');
+    elm.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      codeModal.className = 'hide';
+      getCodeBtn.removeAttribute('class');
+      toggleClass(wrapper, 'show', 'hide');
+    });
+  }
+  
+  function switchLanguage() {
+    var getSwitches = document.querySelectorAll('[data-trigger]');
+    
+    for(elm = 0; elm < getSwitches.length; elm++) {
+      getSwitches[elm].addEventListener('click', function(e) {
+        e.preventDefault();
+        var getTabs = document.querySelectorAll('.code-nav li');
+        
+        for(navTabs = 0; navTabs < getTabs.length; navTabs++) {
+          getTabs[navTabs].classList.remove('active-code-nav');
+        }
+        
+        this.parentNode.classList.add('active-code-nav');
+        
+        var selectedLanguage = this.getAttribute('data-trigger');
+        var getCodeWindows = document.querySelectorAll('[data-target]');
+        
+        document.getElementById('copyButton').setAttribute('data-clipboard-target', selectedLanguage + 'Code');
+        
+        for(codeWindows = 0; codeWindows < getCodeWindows.length; codeWindows++) {
+          toggleClass(getCodeWindows[codeWindows], 'hide', 'show');
+        }
+        var activateWindow = document.querySelectorAll('[data-target=' + selectedLanguage + ']')[0];
+        toggleClass(activateWindow, 'show', 'hide');
+      });
+    }
+  }
+  
+  function copySyntax() {
+    document.getElementById("copyButton").addEventListener('click', function(e) {
+      e.preventDefault();
+    });
+    
+    var client = new ZeroClipboard(document.getElementById("copyButton"));
+    client.on( "ready", function(readyEvent) {
+      client.on( "aftercopy", function() {
+        document.querySelector('.modal-controls p').className = '';
+        
+        setTimeout(function() {
+          document.querySelector('.modal-controls p').className = 'hide';
+        }, 1000);
+      });
+    });
+  }
+  
+  function toggleClass(elm, addClass, removeClass) {
+    elm.classList.remove(removeClass);
+    elm.classList.add(addClass);
+  }
+  
+  return {
+    init: init
+  }
+}();
+
+KeyCode.init();
+  </script>
