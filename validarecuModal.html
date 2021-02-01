@@ -147,7 +147,14 @@
                     if (form.checkValidity() === false) {
 
 
-                        $('#myModal').modal('show')
+                        $('#myModal').modal('show');
+
+document.querySelector('#myModal').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      // code for enter
+      $('#myModal').modal('hide');
+    }
+});
 
                         event.preventDefault();
                         event.stopPropagation();
