@@ -603,42 +603,119 @@
                 </div>
             </div>
             <!-- Formulare  -->
-            <div class="col-md-8">
+            <div class="col-md-8 panel panel-default">
                 <!-- https://getbootstrap.com/docs/4.0/components/forms/ -->
                 <h1>Drop a line</h1>
 
                 <!-- https://getbootstrap.com/docs/4.5/components/forms/#form-grid -->
-                <form class="formularul">
-                    <div class="row f">
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="Name">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="Email">
-                        </div>
-                    </div>
+<!--                <form class="formularul">-->
+<!--                    <div class="row f">-->
+<!--                        <div class="col-md-6">-->
+<!--                            <input type="text" class="form-control" placeholder="Name">-->
+<!--                        </div>-->
+<!--                        <div class="col-md-6">-->
+<!--                            <input type="text" class="form-control" placeholder="Email">-->
+<!--                        </div>-->
+<!--                    </div>-->
 
 
-                    <div class="row f">
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="Phone">
-                        </div>
-                        <div class="col-md-6">
-                            <select id="inputState" class="form-control">
-                                <option selected>Buget...</option>
-                                <option>...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row f">
-                        <div class="col-md-12">
-                            <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-                        </div>
-                    </div>
+<!--                    <div class="row f">-->
+<!--                        <div class="col-md-6">-->
+<!--                            <input type="text" class="form-control" placeholder="Phone">-->
+<!--                        </div>-->
+<!--                        <div class="col-md-6">-->
+<!--                            <select id="inputState" class="form-control">-->
+<!--                                <option selected>Buget...</option>-->
+<!--                                <option>...</option>-->
+<!--                                <option>...</option>-->
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row f">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>-->
+<!--                        </div>-->
+<!--                    </div>-->
 
-                    <button type="button" class="btn btn-danger btn-lg">Submit</button>
-                </form>
+<!--                    <button type="button" class="btn btn-danger btn-lg submit">Submit</button>-->
+<!--                </form>-->
+<!--Testare -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Panel 1</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="alert alert-warning">
+                            Please complete required fields marked in red.
+                        </div>
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label">First Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter first name">
+                                    </div>
+                                </div><!-- Col -->
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label">Last Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter last name">
+                                    </div>
+                                </div><!-- Col -->
+                            </div><!-- Row -->
+
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label class="control-label">City</label>
+                                        <input type="text" class="form-control" placeholder="Enter city">
+                                    </div>
+                                </div><!-- Col -->
+
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label class="control-label">State</label>
+                                        <input type="text" class="form-control" placeholder="Enter state">
+                                    </div>
+                                </div><!-- Col -->
+
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label class="control-label">Zip</label>
+                                        <input type="text" class="form-control" placeholder="Enter zip code">
+                                    </div>
+                                </div><!-- Col -->
+                            </div><!-- Row -->
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label">Email address</label>
+                                        <input type="email" class="form-control" placeholder="Enter email">
+                                    </div>
+                                </div><!-- Col -->
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label class="control-label">Password</label>
+                                        <input type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                </div><!-- Col -->
+                            </div><!-- Row -->
+                        </form>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="pull-right">
+                                    <button type="button" class="btn btn-default reset">Reset</button>
+                                    <button type="button" class="btn btn-primary submit">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Panel Footer -->
+                </div>
 
                 <footer> Copyrigth @2021. All rigths </footer>
 
@@ -676,4 +753,54 @@
     $(function() {
         $('[data-toggle="tooltip"]').tooltip()
     })
+
+//    Validare Formular
+    $('.alert').hide();
+
+    $('.submit').click(function () {
+        // set variable that counts how many input fields are left blank
+        var emptyInputs = $(this).closest('.panel').find('input').filter(function(){
+            return !$(this).val();
+        }).length;
+
+        // if none of the input fields are left blank
+        if (emptyInputs == 0) {
+            alert(0);
+            // accept data and hide panel
+            $(this).closest('.panel').hide();
+        }
+        else {
+            alert(1);
+            // within this panel, find all inputs
+            $(this).closest('.panel').find("input").each(function () {
+                var element = $(this);
+                // if any input is empty
+                if (element.val() == "") {
+                    // add the has-error class to the .form-group parent div
+                    $(element).closest('.form-group').addClass('has-error');
+                    // and show alert box
+                    $(element).closest('.panel').find('.alert').show();
+                }
+            });
+        }
+    });
+
+    // click reset to clear all fields, remove error class, hide alert
+    $('.reset').click(function () {
+        $(this).closest('.panel').find("input").each(function () {
+            $(this).val('');
+            $(this).closest('.form-group').removeClass('has-error');
+            $(this).closest('.panel').find('.alert').hide();
+        });
+    })
+
+
+    //
 </script>
+
+<style>
+    body {
+        font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #444;
+    }
+</style>
